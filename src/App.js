@@ -1,11 +1,18 @@
+import "./App.css";
+import { Footer } from "./Components/Footer";
 
-import './App.css';
+import  Header  from "./Components/Header";
+import { Mainsection } from "./Components/Mainsection";
+import ParticlesBackground from "./Components/ParticlesBackground";
 
 function App() {
   return (
-    <>
-      <h1>Hello React,Welcome Back</h1>
-    </>
+      <div>
+        <ParticlesBackground/>
+        <Header/>
+        <Mainsection/>
+        <Footer/>
+      </div>
   );
 }
 
